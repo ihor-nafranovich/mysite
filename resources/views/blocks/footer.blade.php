@@ -20,7 +20,7 @@
                                 @foreach ($latestArticles as $article)
                                     <li>
                                         <a href="{{route('article.show', [$article->category->slug, $article->slug])}}">
-                                            <img src="/uploads/{{$article->preview_image}}" alt="{{$article->title}}"
+                                            <img src="/storage/{{$article->preview_image}}" alt="{{$article->title}}"
                                                 class="mr-4">
                                             <div class="text">
                                                 <h4>{{$article->title}}</h4>
@@ -31,7 +31,7 @@
                                         </a>
                                     </li>
                                 @endforeach
-                                
+
                             </ul>
                         </div>
                     </div>

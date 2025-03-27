@@ -9,7 +9,7 @@
                     <div>
                         <a href="{{ route('article.show', [$article->category->slug, $article->slug]) }}"
                             class="a-block d-flex align-items-center height-lg"
-                            style="background-image: url('/uploads/{{ $article->detail_image }}'); ">
+                            style="background-image: url('/storage/{{ $article->detail_image }}'); ">
                             <div class="text half-to-full">
                                 <span class="category mb-5">{{ $article->category->title }}</span>
                                 <div class="post-meta">
@@ -32,7 +32,7 @@
                             <div class="col-md-6">
                                 <a href="{{ route('article.show', [$article->category->slug, $article->slug]) }}"
                                     class="blog-entry element-animate fadeIn element-animated" data-animate-effect="fadeIn">
-                                    <img src="/uploads/{{ $article->preview_image }}" alt="{{ $article->title }}">
+                                    <img src="/storage/{{ $article->preview_image }}" alt="{{ $article->title }}">
                                     <div class="blog-content-body">
                                         <div class="post-meta">
                                             <span class="mr-2">{{ $article->formatted_published_at }}</span>

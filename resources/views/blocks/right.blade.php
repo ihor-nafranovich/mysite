@@ -35,7 +35,7 @@
                 @foreach ($latestArticles as $article)
                     <li>
                         <a href="{{route('article.show', [$article->category->slug, $article->slug])}}">
-                            <img src="/uploads/{{$article->preview_image}}" alt="{{$article->title}}" class="mr-4">
+                            <img src="/storage/{{$article->preview_image}}" alt="{{$article->title}}" class="mr-4">
                             <div class="text">
                                 <h4>{{$article->title}}</h4>
                                 <div class="post-meta">
@@ -45,8 +45,8 @@
                         </a>
                     </li>
                 @endforeach
-                
-                
+
+
             </ul>
         </div>
     </div>
@@ -57,7 +57,7 @@
         <ul class="categories">
 
             @foreach ($categories as $category)
-                <li><a href="{{route('article.category', $category->slug)}}">{{$category->title}} <span>({{$category->articles_count}})</span></a></li>    
+                <li><a href="{{route('article.category', $category->slug)}}">{{$category->title}} <span>({{$category->articles_count}})</span></a></li>
             @endforeach
         </ul>
     </div>
@@ -67,7 +67,7 @@
         <h3 class="heading">Теги</h3>
         <ul class="tags">
             @foreach ($articleTags as $tag)
-                <li><a href="{{route('article.tag', $tag)}}">{{$tag}}</a></li>    
+                <li><a href="{{route('article.tag', $tag)}}">{{$tag}}</a></li>
             @endforeach
         </ul>
     </div>

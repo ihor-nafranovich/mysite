@@ -42,7 +42,7 @@
                         <div class="post-entry-horzontal">
                             <a href="{{route('article.show', [$article->category->slug, $article->slug])}}">
                                 <div class="image element-animate fadeIn element-animated" data-animate-effect="fadeIn"
-                                    style="background-image: url(/uploads/{{$article->preview_image}});"></div>
+                                    style="background-image: url(/storage/{{$article->preview_image}});"></div>
                                 <span class="text">
                                     <div class="post-meta">
                                         <span class="mr-2">{{ $article->formatted_published_at }} </span> •
