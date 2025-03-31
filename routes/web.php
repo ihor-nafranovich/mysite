@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,3 +14,4 @@ Route::get('/search/', [ArticleController::class, 'search'])->name('article.sear
 Route::get('/blog/{category}/{article}', [ArticleController::class, 'show'])->name('article.show');
 
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+//Route::controller(CatalogController::class)->group(function () {});
