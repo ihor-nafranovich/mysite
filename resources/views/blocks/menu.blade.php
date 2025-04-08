@@ -6,7 +6,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="{{route('article.category', 'razrabotka')}}">Разработка</a>
+            <a class="nav-link" href="{{route('article.category', 'novosti')}}">Новости</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -21,7 +21,7 @@
 
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{route('about')}}">About</a>
+            <a class="nav-link" href="{{route('about')}}">О нас</a>
         </li>
     </ul>
 

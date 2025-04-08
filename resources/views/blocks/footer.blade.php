@@ -2,13 +2,17 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-4">
-                <h3>О блоге</h3>
+                <h3>О сайте</h3>
                 <p class="mb-4">
                     <img src="/assets/images/cartman.png" alt="Image placeholder" class="img-fluid">
                 </p>
 
-                <p>Lorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum inventore
-                    reiciendis. <a href="/assets/#">Подробнее</a></p>
+                <p>Пусть впереди лишь светлые дороги,<br>
+                    И радость сердце каждый день наполнит.<br>
+                    Успех пребудет в деле, что ты тронешь,<br>
+                    И будущее счастьем новым взглянет.
+                    <a href="/assets/#">Подробнее</a>
+                </p>
             </div>
             <div class="col-md-6 ml-auto">
                 <div class="row">
@@ -43,7 +47,7 @@
                             <h3>Быстрые ссылки</h3>
                             <ul class="list-unstyled">
                                 <li><a href="{{asset('about')}}">О нас</a></li>
-                                <li><a href="{{asset('category.article', 'razrabotka-saitov')}}">Разработка сайтов</a></li>
+                                <li><a href="{{asset('category.article', 'novosti')}}">Новости</a></li>
                                 <li><a href="{{asset('category.index')}}">Категории</a></li>
                             </ul>
                         </div>

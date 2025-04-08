@@ -14,10 +14,13 @@
         <div class="bio text-center">
             <img src="/assets/images/cartman.png" alt="Image Placeholder" class="img-fluid">
             <div class="bio-body">
-                <h2>Craig David</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus
-                    excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
-                <p><a href="{{route('about')}}" class="btn btn-primary btn-sm rounded">Read my bio</a></p>
+                <h2>Разработчик</h2>
+                <p>Зарёй надежды новый день горит,
+                    И горизонт манит мечты свершеньем.
+                    Вперёд шагай, не ведая обид,
+                    И будущее станет вдохновеньем.
+                </p>
+                <p><a href="{{route('about')}}" class="btn btn-primary btn-sm rounded">О нас</a></p>
                 <p class="social">
                     <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
                     <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
