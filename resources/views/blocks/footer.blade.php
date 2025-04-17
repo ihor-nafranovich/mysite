@@ -4,7 +4,7 @@
             <div class="col-md-4">
                 <h3>О сайте</h3>
                 <p class="mb-4">
-                    <img src="/assets/images/cartman.png" alt="Image placeholder" class="img-fluid">
+                    <img src="/assets/images/Professiya_web_razrabotchik.png" alt="Image placeholder" class="img-fluid">
                 </p>
 
                 <p>Пусть впереди лишь светлые дороги,<br>
