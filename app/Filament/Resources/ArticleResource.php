@@ -53,7 +53,7 @@ class ArticleResource extends Resource
                 Forms\Components\Textarea::make('preview_text')->label('Анонс')
                     ->required()
                     ->columnSpanFull(),
-                Forms\Components\Textarea::make('detail_text')->label('Статья')
+                TinyEditor::make('detail_text')->label('Статья')
                     ->required()
                     ->columnSpanFull(),
                 Forms\Components\TagsInput::make('tags')->label('Теги'),
