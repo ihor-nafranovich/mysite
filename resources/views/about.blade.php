@@ -38,6 +38,10 @@
         <div class="container">
             <h1>about</h1>
         </div>
+        <div class="container">
+            <div id="time"></div>
+            <script src="/assets/js/time.js"></script>
+          </div>
     </section>
 
     @include('blocks.footer')

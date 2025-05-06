@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-4">
-                <h3>О сайте</h3>
+                <h3>Как добраться</h3>
                 <p class="mb-4">
-                    <img src="/assets/images/Professiya_web_razrabotchik.png" alt="Image placeholder" class="img-fluid">
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/org/bguir_korpus_7/1250421784/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">БГУИР, корпус № 7</a><a href="https://yandex.by/maps/157/minsk/category/university/184106140/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">ВУЗ в Минске</a><iframe src="https://yandex.by/map-widget/v1/?ll=27.598990%2C53.903081&mode=poi&poi%5Bpoint%5D=27.598357%2C53.903068&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1250421784&z=17.2" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
                 </p>
 
                 <p>Пусть впереди лишь светлые дороги,<br>
