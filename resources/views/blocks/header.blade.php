@@ -14,10 +14,10 @@
 
                                 @auth
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Hello, {{ auth()->user()->name }}</a>
+                                        <a class="navbar-brand" href="#">Hello, {{ auth()->user()->name }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('logout') }}">Выход</a>
+                                        <a class="navbar-brand" href="{{ route('logout') }}">Выход</a>
                                     </li>
                                 @else
                                     <li class="nav-item">
